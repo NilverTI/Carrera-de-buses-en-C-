@@ -54,7 +54,7 @@ void bus(int position, int line, int color) {
 }
 
 void imprimirNombre(int position, int line, const string& name) {
-    gotoxy(position + 4, line + 2); // Ajusta la posición para centrar el nombre
+    gotoxy(position + 4, line + 2); // Ajusta la posiciÃ³n para centrar el nombre
     cout << name;
 }
 
@@ -104,6 +104,7 @@ int main() {
     carrera(Bus1, Bus2);
 
     cout << "\n\n\n\n\n\n\n";
+    system("pause");
 
     return 0;
 }
